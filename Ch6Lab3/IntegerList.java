@@ -140,10 +140,10 @@ public class IntegerList{
     
     public void removeFirst(int newVal) {
         int loc = search(newVal);
-        for (int i = loc; i < list.length; i++) {
-            
+        for (int i = loc; i < (list.length - 1); i++) {
+            list[i] = list[i+1];
         }
-        
+        list[list.length-1] = 0;
     }
 
 }

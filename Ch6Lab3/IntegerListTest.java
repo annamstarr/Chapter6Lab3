@@ -163,6 +163,8 @@ public class IntegerListTest{
         
         System.out.println("6: Add Element");
         
+        System.out.println("7: Remove Element");
+        
         System.out.print("\nEnter your choice: ");
 
     }
